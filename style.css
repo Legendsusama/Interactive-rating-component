@@ -1,0 +1,133 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+
+  }
+
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .box {
+    width: 320px;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    
+  }
+
+  .star {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 22%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .box h3 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .box p {
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+  }
+
+  .rating-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+
+  }
+
+  .rating-numbers .number {
+
+    width: 45px;
+    height: 45px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+
+
+
+  .rating-numbers .number:hover {
+    background-color: hsl(216, 12%, 54%);
+
+  }
+
+  .rating-numbers .number.selected{
+    background-color: hsl(25, 97%, 53%);
+  }
+
+
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+
+  }
+
+  button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+
+  }
+
+
+  /* Writing for thankyou State */
+
+  .box .thank-you-box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+  }
+
+  .box .thank-you-box p:nth-child(2){
+    padding: 8px;
+    background-color: hsl(213, 19%, 22%);
+    color: hsl(25, 97%, 53%);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 20px 0;
+
+  }
+
+  .box .thank-you-box h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+  }
+
